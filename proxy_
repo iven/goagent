@@ -1,4 +1,2 @@
 #!/bin/bash
-kill `ps -ef|grep -v grep| grep proxy |awk '{ print $2 }'`
-# -v 参数
-# 只选择不匹配的行,因此会不会选择含有grep的行.
+pkill -f proxy.py
