@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./goagent/local/proxy.py 2&>1 .proxy
