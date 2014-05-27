@@ -1,0 +1,10 @@
+#!/bin/bash
+
+tee /etc/init/goagent.conf << EOF
+description "goagent"
+start on stopped rc RUNLEVEL=[2345]
+respawn
+exec python ~iven/goagent/local/proxy.py
+EOF
+
+initctl start goagent

@@ -1,5 +1,0 @@
-Usage:
-
-Copy GoAgent.desktop to ~/.config/autostart/ to start goagent automatically when system starts.
-
-Use kill_goagent.sh to stop goagent.

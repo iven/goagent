@@ -1,0 +1,4 @@
+#!/bin/bash
+
+initctl stop goagent
+rm /etc/init/goagent.conf
